@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="213586" started-at="2022-10-10T15:27:43 IST" finished-at="2022-10-10T15:31:17 IST">
+    <groups>
+    </groups>
+    <test name="my hub spot test chrome" duration-ms="213586" started-at="2022-10-10T15:27:43 IST" finished-at="2022-10-10T15:31:17 IST">
+      <class name="com.MyTests.TestClass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="beforeClass" is-config="true" duration-ms="6" started-at="2022-10-10T15:27:43 IST" finished-at="2022-10-10T15:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="setUpTest" is-config="true" duration-ms="11390" started-at="2022-10-10T15:27:43 IST" finished-at="2022-10-10T15:27:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="validateUnregisteredEmailAddress()[pri:1, instance:com.MyTests.TestClass@5d11346a]" name="validateUnregisteredEmailAddress" duration-ms="2176" started-at="2022-10-10T15:27:55 IST" finished-at="2022-10-10T15:27:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUnregisteredEmailAddress -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="tearDown" is-config="true" duration-ms="665" started-at="2022-10-10T15:27:57 IST" finished-at="2022-10-10T15:27:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUnregisteredEmailAddress status=SUCCESS method=TestClass.validateUnregisteredEmailAddress()[pri:1, instance:com.MyTests.TestClass@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="setUpTest" is-config="true" duration-ms="9830" started-at="2022-10-10T15:27:58 IST" finished-at="2022-10-10T15:28:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="validateCartQty()[pri:2, instance:com.MyTests.TestClass@5d11346a]" name="validateCartQty" duration-ms="23926" started-at="2022-10-10T15:28:07 IST" finished-at="2022-10-10T15:28:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartQty -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="tearDown" is-config="true" duration-ms="683" started-at="2022-10-10T15:28:31 IST" finished-at="2022-10-10T15:28:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCartQty status=SUCCESS method=TestClass.validateCartQty()[pri:2, instance:com.MyTests.TestClass@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="setUpTest" is-config="true" duration-ms="11485" started-at="2022-10-10T15:28:32 IST" finished-at="2022-10-10T15:28:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="FAIL" signature="validateCartItemPrice()[pri:3, instance:com.MyTests.TestClass@5d11346a]" name="validateCartItemPrice" duration-ms="25333" started-at="2022-10-10T15:28:43 IST" finished-at="2022-10-10T15:29:09 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [444
+97] but found [444.97]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [444
+97] but found [444.97]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.MyTests.TestClass.validateCartItemPrice(TestClass.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartItemPrice -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="tearDown" is-config="true" duration-ms="884" started-at="2022-10-10T15:29:09 IST" finished-at="2022-10-10T15:29:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCartItemPrice status=FAILURE method=TestClass.validateCartItemPrice()[pri:3, instance:com.MyTests.TestClass@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="setUpTest" is-config="true" duration-ms="11474" started-at="2022-10-10T15:29:10 IST" finished-at="2022-10-10T15:29:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="validateCartSubTotal()[pri:4, instance:com.MyTests.TestClass@5d11346a]" name="validateCartSubTotal" duration-ms="27381" started-at="2022-10-10T15:29:21 IST" finished-at="2022-10-10T15:29:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartSubTotal -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="tearDown" is-config="true" duration-ms="726" started-at="2022-10-10T15:29:49 IST" finished-at="2022-10-10T15:29:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCartSubTotal status=SUCCESS method=TestClass.validateCartSubTotal()[pri:4, instance:com.MyTests.TestClass@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="setUpTest" is-config="true" duration-ms="10910" started-at="2022-10-10T15:29:49 IST" finished-at="2022-10-10T15:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="FAIL" signature="validateCartProductName()[pri:5, instance:com.MyTests.TestClass@5d11346a]" name="validateCartProductName" duration-ms="35540" started-at="2022-10-10T15:30:00 IST" finished-at="2022-10-10T15:30:36 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.mypages.ItemPage.verifyProductName(ItemPage.java:152)
+at com.MyTests.TestClass.validateCartProductName(TestClass.java:81)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartProductName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="tearDown" is-config="true" duration-ms="892" started-at="2022-10-10T15:30:36 IST" finished-at="2022-10-10T15:30:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCartProductName status=FAILURE method=TestClass.validateCartProductName()[pri:5, instance:com.MyTests.TestClass@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="setUpTest" is-config="true" duration-ms="10876" started-at="2022-10-10T15:30:37 IST" finished-at="2022-10-10T15:30:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="validateYourOrders()[pri:6, instance:com.MyTests.TestClass@5d11346a]" name="validateYourOrders" duration-ms="3338" started-at="2022-10-10T15:30:47 IST" finished-at="2022-10-10T15:30:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateYourOrders -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="tearDown" is-config="true" duration-ms="655" started-at="2022-10-10T15:30:51 IST" finished-at="2022-10-10T15:30:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateYourOrders status=SUCCESS method=TestClass.validateYourOrders()[pri:6, instance:com.MyTests.TestClass@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="setUpTest" is-config="true" duration-ms="10595" started-at="2022-10-10T15:30:51 IST" finished-at="2022-10-10T15:31:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="validateYourAddress()[pri:7, instance:com.MyTests.TestClass@5d11346a]" name="validateYourAddress" duration-ms="1378" started-at="2022-10-10T15:31:02 IST" finished-at="2022-10-10T15:31:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateYourAddress -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="tearDown" is-config="true" duration-ms="682" started-at="2022-10-10T15:31:03 IST" finished-at="2022-10-10T15:31:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateYourAddress status=SUCCESS method=TestClass.validateYourAddress()[pri:7, instance:com.MyTests.TestClass@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="setUpTest" is-config="true" duration-ms="10464" started-at="2022-10-10T15:31:04 IST" finished-at="2022-10-10T15:31:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="validateYourLists()[pri:8, instance:com.MyTests.TestClass@5d11346a]" name="validateYourLists" duration-ms="1606" started-at="2022-10-10T15:31:15 IST" finished-at="2022-10-10T15:31:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateYourLists -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="tearDown" is-config="true" duration-ms="653" started-at="2022-10-10T15:31:16 IST" finished-at="2022-10-10T15:31:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateYourLists status=SUCCESS method=TestClass.validateYourLists()[pri:8, instance:com.MyTests.TestClass@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.MyTests.TestClass@5d11346a]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-10-10T15:31:17 IST" finished-at="2022-10-10T15:31:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.MyTests.TestClass -->
+    </test> <!-- my hub spot test chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

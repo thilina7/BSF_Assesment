@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ZSRIL-3NT30J3" name="com.MyTests.TestClass" tests="1" failures="0" timestamp="10 Oct 2022 08:25:24 GMT" time="16.732" errors="0">
+  <testcase name="validateUnregisteredEmailAddress" time="2.4" classname="com.MyTests.TestClass"/>
+</testsuite>

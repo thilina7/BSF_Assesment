@@ -1,0 +1,8 @@
+com\mypages\BasePage.class
+com\mypages\Page.class
+com\mypages\LoginPage.class
+com\mypages\YourAccountPage.class
+com\ExtentReportListner\ExtentReportListner.class
+com\Utility\Utility.class
+com\config\configProperties.class
+com\mypages\ItemPage.class

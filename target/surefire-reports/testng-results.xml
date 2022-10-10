@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="16732" started-at="2022-10-10T13:55:08Z" finished-at="2022-10-10T13:55:24Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="16732" started-at="2022-10-10T13:55:08Z" finished-at="2022-10-10T13:55:24Z">
+      <class name="com.MyTests.TestClass">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="7" started-at="2022-10-10T13:55:08Z" finished-at="2022-10-10T13:55:08Z">
+        </test-method>
+        <test-method status="PASS" signature="setUpTest()" name="setUpTest" is-config="true" duration-ms="13629" started-at="2022-10-10T13:55:08Z" finished-at="2022-10-10T13:55:21Z">
+        </test-method>
+        <test-method status="PASS" signature="validateUnregisteredEmailAddress()" name="validateUnregisteredEmailAddress" duration-ms="2400" started-at="2022-10-10T13:55:21Z" description="user is in correct page" finished-at="2022-10-10T13:55:24Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="691" started-at="2022-10-10T13:55:24Z" finished-at="2022-10-10T13:55:24Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="2" started-at="2022-10-10T13:55:24Z" finished-at="2022-10-10T13:55:24Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
